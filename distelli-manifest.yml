@@ -34,7 +34,7 @@ bmcgehee/eric-repro1:
     #- sudo /usr/local/bin/pip install --upgrade awscli
     - echo "---Distelli Debug to Add---"
     - ls -al
-    - cat ecs_task.json
+    #- cat ecs_task.json
 
   PostInstall:
 
