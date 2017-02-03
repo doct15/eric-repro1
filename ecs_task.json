@@ -13,7 +13,7 @@
       ],  
       "essential": true,
       "name": "maraudersmap",
-      "image": "{{DISTELLI_DOCKER_REPO}}:{{DOCKERTAG}}",
+      "image": "{{&DISTELLI_DOCKER_REPO}}:{{DISTELLI_BUILDNUM}}",
       "cpu": 512 
     },  
     {   

@@ -35,11 +35,14 @@ bmcgehee/eric-repro1:
     - echo "---Distelli Debug to Add---"
     - ls -al
     #- cat ecs_task.json
+    - echo "DISTELLI_DOCKER_REPO = $DISTELLI_DOCKER_REPO"
+    - echo "DISTELLI_BUILDNUM = $DISTELLI_BUILDNUM"
 
   PostInstall:
 
     - echo "---Running PostInstall steps---"
-    - echo $DISTELLI_DOCKER_REPO
+    - echo "DISTELLI_DOCKER_REPO = $DISTELLI_DOCKER_REPO"
+    - echo "DISTELLI_BUILDNUM = $DISTELLI_BUILDNUM"
     
     - ls -al
     
